@@ -1,0 +1,115 @@
+.watch-party-made-easy img {
+    position: relative;
+    z-index: 2;
+    width: 10em;
+    height: 10em;
+}
+
+.homepage-content img {
+    width: 100%;
+}
+
+a, img, :focus, input {
+    outline: none !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.homepage-content {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+.navbar navbar-expand-lg desktop-menu{
+  display: flex;
+}
+
+body {
+    font: normal 14px/1.8 "Roboto", sans-serif;
+    background-color: white;
+    color: #434146;
+}
+
+ header{
+    height: 83px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 205px auto 104px;
+    grid-column-gap: 40px;
+    padding: 19px 20px;
+    z-index: 900;
+    transition: top 0.3s ease-in-out;
+ }
+
+#page-top{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1011951905/thumb/1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-publications{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.publications-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 140px;
+    grid-row-gap: 80px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 3px;
+    max-width: 880px;
+    margin: 0 auto 60px;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+[role=button] {
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-menu{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
