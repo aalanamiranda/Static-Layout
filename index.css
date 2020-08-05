@@ -1,115 +1,185 @@
-.watch-party-made-easy img {
+body{
+    background-image: url(https://kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font: normal 14px/1.8 "Roboto", sans-serif;
+  }
+  
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  #open-kast{
+      position: absolute;
+      z-index: 70;
+      top: 29px;
+      right: 20px;
+      display: inline-block;
+      background: transparent;
+      border-radius: 3px;
+      height: 27px;
+      line-height: 27px;
+      width: 104px;
+      text-align: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      box-shadow: inset 0px 0px 0px 1px #fff;
+      border: 1px solid transparent;
+      color: #ffffff !important;
+  }
+  
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+    
+  }
+  
+  .logo{
+        width: 201px;
+        height: auto;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    float: right;
+    display: inline-block;
+    padding: .5rem 1rem;
+  }
+  
+  #premium{
+    padding-right: 7.5rem;
+    color: white;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+      
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 10rem;
+      padding: .5rem 0;
+      margin: .125rem 0 0;
+      font-size: 1rem;
+      color: #212529;
+      text-align: left;
+      list-style: none;
+      background-color: white;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
+  
+  .watch-party-made-easy {
+    text-align: center;
+    background-size: cover;
+    padding-top: 83px !important;
+    padding-bottom: 60px !important;
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+  .watch-party-made-easy .text {
+    margin: 30px auto 0;
+    color: #ffffff;
+  }
+  .watch-party-made-easy h3 {
+    margin: 0 auto 30px;
+    max-width: 500px;
+  }
+  .watch-party-made-easy h2 {
+    margin-bottom: 25px;
+  }
+  .watch-party-made-easy img {
     position: relative;
     z-index: 2;
-    width: 10em;
-    height: 10em;
-}
-
-.homepage-content img {
-    width: 100%;
-}
-
-a, img, :focus, input {
-    outline: none !important;
-}
-
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
-.homepage-content {
-    text-align: center;
-    position: relative;
-    z-index: 3;
-}
-
-.navbar navbar-expand-lg desktop-menu{
-  display: flex;
-}
-
-body {
-    font: normal 14px/1.8 "Roboto", sans-serif;
-    background-color: white;
-    color: #434146;
-}
-
- header{
-    height: 83px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 205px auto 104px;
-    grid-column-gap: 40px;
-    padding: 19px 20px;
-    z-index: 900;
-    transition: top 0.3s ease-in-out;
- }
-
-#page-top{
-    background-image: url(https://ak.picdn.net/shutterstock/videos/1011951905/thumb/1.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.section-publications{
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-.publications-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 140px;
-    grid-row-gap: 80px;
-    align-items: center;
-    justify-content: space-around;
-    justify-items: center;
+    width: auto;
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .text{
+    text-align: middle;
+  }
+  .button{
+    
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    min-width: 215px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.44px;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
     border-radius: 3px;
-    max-width: 880px;
-    margin: 0 auto 60px;
-}
-
-.dropdown-toggle {
-    white-space: nowrap;
-}
-
-[role=button] {
-    cursor: pointer;
-}
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-
-.navbar-menu{
-    list-style-type: none;
-}
-
-li{
-    display: inline;
-}
+    background: #FE9000;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+      
+  }
+  
+  .publications{
+    background: white;
+    text-align: center;
+    color: #434146;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  
+  .publications .publications-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-column-gap: 135px;
+      grid-row-gap: 75px;
+      align-items: center;
+      justify-content: space-around;
+      justify-items: center;
+      border-radius: 3px;
+      max-width: 880px;
+      margin: 0 auto 60px;
+      
+  }
+  
+  .quote-block{
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  

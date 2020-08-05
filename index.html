@@ -7,104 +7,80 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body id="page-top"  class="top-homepage">
-  <header id="header" class="nav-down">
-      <a href="#top" class="navbar-brand logo-container" id="scroll-top">
-        <img src="https://www.kastapp.co/assets/logos/kast-logo-horizontal-color-white.svg" alt="Kast logo stream watch play" class="logo-img logo-white-text">
+  
+<header>
+  <nav>
+  <div class="nav-container">
+    
+    <a href="#top" class="logo" id="logo-top">
+        <img src="https://www.kastapp.co/assets/logos/kast-logo-horizontal-color-white.svg" class="logo">
       </a>
+    
+    <div class="dropdown">
+    <button><a href="https://w.kast.live" id="open-kast">Open Kast</a></button>
+  </div>
+    
+  <div  id="premium" class="dropdown">
+    <button  onclick="myFunction3()" class="dropbtn"><a href="https://www.kastapp.co/subscriptions.html">Premium</a></button>
+  </div>
+  
+  <div class="dropdown">
+  <button onclick="myFunction3()" class="dropbtn">Community</button>
+  <div id="myDropdown3" class="dropdown-content">
+    <a href="https://www.kastapp.co/community-guidelines.html">Community Guidelines</a>
+    <a href="https://www.kastapp.co/kast-founders.html">Founder's Hall of Fame</a>
+    <a href="https://shop.kast.gg/">Shop Kast Swag</a>
+  </div>
+</div>
+  
+  <div class="dropdown">
+  <button onclick="myFunction2()" class="dropbtn">Help</button>
+  <div id="myDropdown2" class="dropdown-content">
+    <a href="https://kast.zendesk.com/hc/en-us/requests/new">Contact Support</a>
+    <a href="https://kast.zendesk.com/hc/en-us">FAQ's</a>
+    <a href="https://www.kastapp.co/download.html">Downloads</a>
+  </div>
+</div>
+  
+  <div class="dropdown">
+  <button onclick="myFunction1()" class="dropbtn">About</button>
+  <div id="myDropdown1" class="dropdown-content">
+    <a href="https://www.kastapp.co/#what-is-kast">What is Kast?</a>
+    <a href="https://medium.com/kasthq">Blog</a>
+    <a href="https://medium.com/kast-press">Press Releases</a>
+    <a href="https://www.kastapp.co/company.html">Company</a>
+  </div>
+</div>
+    
+</div>
+  </nav>
+</header>
 
-      
-      <nav class="navbar-menu">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About<i class="fas fa-chevron-down" aria-hidden="true"></i>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#what-is-kast">What is Kast?</a>
-                <a class="dropdown-item external" href="https://medium.com/kasthq" target="_blank">Blog <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a>
-                <a class="dropdown-item external" href="https://medium.com/kast-press" target="_blank">Press Releases <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a>
-                <!-- <a class="dropdown-item" href="/press.html">Press Kit</a> -->
-                <a class="dropdown-item" href="/company.html">Company</a>
-                <!-- <a class="dropdown-item" href="/use-cases.html">Use Cases</a> -->
-              </div>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Help<i class="fas fa-chevron-down" aria-hidden="true"></i>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item external" target="_blank" href="https://kast.zendesk.com/hc/en-us/requests/new">Contact Support 
-                  <i class="fas fa-external-link-square-alt" aria-hidden="true"></i>
-                </a>
-                <a class="dropdown-item external" href="https://kast.zendesk.com/hc/en-us" target="_blank">FAQ's <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a>
-                <a class="dropdown-item" href="/download.html">Downloads</a>
-              </div>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Community<i class="fas fa-chevron-down" aria-hidden="true"></i>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/community-guidelines.html">Community Guidelines</a>
-                <a class="dropdown-item" href="/kast-founders.html">Founders Hall of Fame</a>
-                <!-- <a class="dropdown-item" href="/partners.html">Partners</a> -->
-                <a class="dropdown-item external" href="https://shop.kast.gg" target="_blank">Shop Kast Swag <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link not-dropdown" href="/subscriptions.html">Premium</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <a href="https://w.kast.live" target="_blank" class="download-header try-web-lite white">Open Kast</a>
-    </header>
-  <section class="section watch-party-made-easy">
+<div class="homepage-content">
+    	<section class="section watch-party-made-easy">
         <div class="main-container">
-          <img src="https://www.kastapp.co/assets/logos/kast-logo-horizontal-color-white.svg" alt="Watch Party">
-
+          <img src="https://kastapp.co/assets/pages/home/laptop-table.png" alt="Watch Party">
           <div class="text">
             <h1>Watch parties made easy.</h1>
             <h3>Share movies, TV shows, and whatever you want with friends online. Join millions of kasters today!</h3>
             <div class="btn-container desktop-only">
-              <a href="https://w.kast.live" target="_blank" class="button big try-web-lite">
+              <a href="https://w.kast.live" class="button">
                 Open Kast
               </a>
-            </div>
-            
-            <div class="btn-container mobile-only">
-              <a href="http://itunes.apple.com/app/id1467026423" target="_blank" class="button big ios-app-download ios-only">
-                Get Kast iOS
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=com.evasyst.Kast" target="_blank" class="button big android-app-download android-only">
-                Get Kast Android
-              </a>
-              <!-- <a href="/download.html" class="all-downloads mobile-only">
-                Other downloads
-              </a> -->
             </div>
           </div>
         </div>
       </section>
-  <section class="section-publications">
+      <section class="section publications">
         <div class="publications-content main-container">
-          <h2>Featured in</h2>
+          <h2 id="header">Featured in</h2>
           <div class="publications-grid">
-            <img src="https://www.kastapp.co/assets/publications/wired-logo.svg">
-            <img src="https://www.kastapp.co/assets/publications/nerdist-logo.svg">
-            <img src="https://www.kastapp.co/assets/publications/yahoo-finance-logo.svg">
-            <img src="https://www.kastapp.co/assets/publications/evening-standard-logo.svg">
-            <img src="https://www.kastapp.co/assets/publications/bbc-logo.svg">
-            <img src="https://www.kastapp.co/assets/publications/daily-mail-logo.svg">
+            <img src="https://kastapp.co/assets/publications/wired-logo.svg">
+            <img src="https://kastapp.co/assets/publications/nerdist-logo.svg">
+            <img src="https://kastapp.co/assets/publications/yahoo-finance-logo.svg">
+            <img src="https://kastapp.co/assets/publications/evening-standard-logo.svg">
+            <img src="https://kastapp.co/assets/publications/bbc-logo.svg">
+            <img src="https://kastapp.co/assets/publications/daily-mail-logo.svg">
           </div>
 
           <div class="quote-block">
@@ -113,5 +89,35 @@
           </div>
         </div>
       </section>
+    </div>
+<script >/* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction1() {
+      document.getElementById("myDropdown1").classList.toggle("show");
+    }
+    
+    function myFunction2() {
+      document.getElementById("myDropdown2").classList.toggle("show");
+    }
+    
+    function myFunction3() {
+      document.getElementById("myDropdown3").classList.toggle("show");
+    }
+    
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }</script>
+
+
 </body> 
 </html>
